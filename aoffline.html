@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RadioPanetti Network</title>
+    <style>
+    @media (prefers-color-scheme: light) {
+      :root {
+          --sfondo:#009ee3;
+      }
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+          --sfondo:#131313;
+      }
+    }
+    @media (prefers-color-scheme: no-preference) {
+      :root {
+          --sfondo:#009ee3;
+      }
+    }
+    @font-face {
+      font-family: 'RP Play Sans';
+      font-weight: 100 900;
+      font-display: swap;
+      font-style: normal;
+      font-named-instance: 'Regular';
+      src: url("fonts/RPPlay-Sans-roman.var.woff2") format("woff2");
+    }
+    body {
+      font-family: 'RP Play Sans' !important;
+      text-align: center!important;
+      align-items: center!important;
+      justify-content: center!important;
+      display: flex!important;
+      color:white;
+      background-color:var(--sfondo)!important;
+    }
+    </style>
+  </head>
+  <body>
+    <div style="text-align:center;"><img src="offline.svg" style="height:30%;width:auto;"><BR><h3 style="font-weight:bold;">Si è verificato un problema di connessione</h3><h3>Verifica di essere connesso a internet</h3></div>
+  </body>
+</html>
